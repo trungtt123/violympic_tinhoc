@@ -1,0 +1,39 @@
+.submit-problem{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background:rgba(0,0,0,0.2);
+    z-index: 100000;
+    
+}
+.submit-problem .container{
+    position: fixed;
+    width: 62%;
+    top: 20%;
+    bottom: 10%;
+    right: 20%;
+    left: 20%;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 3px#000;
+    -webkit-box-shadow:3px 3px 3px 3px#000;
+    -moz-box-shadow:3px 3px 3px 3px #000;
+}
+.submit-problem .ck-editor__editable{
+    max-height: 200px;
+}
+.submit-problem .btn-control{
+    position: absolute;
+    bottom: 10px;
+    right: 7%;
+}
+.submit-problem .table-result{
+    font-size: 14px;
+    
+}
+.submit-problem .my-table{
+    width: 100%;
+}
