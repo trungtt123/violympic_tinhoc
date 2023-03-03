@@ -1,0 +1,15 @@
+.contact{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.contact-icon{
+    width: 17px;
+    height: 17px;
+    margin-right: 3px;
+}
+.icon-success-exam{
+    width: 17px;
+    height: 14px;
+}
