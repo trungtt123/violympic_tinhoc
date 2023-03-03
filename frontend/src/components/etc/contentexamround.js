@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useHistory } from 'react-router-dom';
-import Clock from './clock';
+import Clock from './Clock';
 import { api_url } from './constants';
 import '../../css/exam.css'
 function ContentExamRound(props) {

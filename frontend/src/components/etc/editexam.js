@@ -3,7 +3,7 @@ import '../../css/create-exam.css';
 import { useHistory } from 'react-router-dom';
 import { api_url, adminID } from './constants';
 import {NotificationContainer, NotificationManager} from 'react-notifications';
-import Calendar from './calendar';
+import Calendar from './Calendar';
 function EditExam(props) {
     var isLoggedIn = props.isLoggedIn;
 

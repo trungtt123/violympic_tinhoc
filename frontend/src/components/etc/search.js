@@ -6,10 +6,10 @@ import ClassicEditor from '@ckeditor/ckeditor5-build-classic';
 import { UnControlled as CodeMirror } from 'react-codemirror2';
 import { domain, api_url } from './constants';
 import { NotificationContainer, NotificationManager } from 'react-notifications';
-import ContentListExam from './contentlistexam';
-import ContentListProblem from './contentlistproblem';
+import ContentListExam from './ContentListExam';
+import ContentListProblem from './ContentListProblem';
 import socketIOClient from 'socket.io-client';
-import CurrentMessage from './currentmessage';
+import CurrentMessage from './CurrentMessage';
 import '../../css/message.css';
 function Search(props) {
     const history = useHistory();

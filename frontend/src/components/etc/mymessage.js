@@ -2,8 +2,8 @@ import { useEffect, useState } from 'react';
 import '../../css/message.css';
 import socketIOClient from 'socket.io-client';
 import { api_url } from './constants';
-import CurrentMessage from './currentmessage';
-import CreateMessage from './createmessage';
+import CurrentMessage from './CurrentMessage';
+import CreateMessage from './CreateMessage';
 import $ from 'jquery';
 export default function MyMessage(props) {
     const [elmListMessage, setElmListMessage] = useState();
@@ -96,7 +96,7 @@ export default function MyMessage(props) {
                     <input className="form-control rounded-0" id="inputListMessage"
                         style={{ fontSize: "14px", webkitBoxShadow: "none" }}
                         placeholder="Tìm kiếm tin nhắn . . ." name="srch-term"
-                        id="ed-srch-term" type="text"
+                        type="text"
                         onChange={(e) => handleSearchMessage(e)}
                     />
 

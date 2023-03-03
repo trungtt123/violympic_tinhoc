@@ -6,8 +6,8 @@ import ClassicEditor from '@ckeditor/ckeditor5-build-classic';
 import { UnControlled as CodeMirror } from 'react-codemirror2';
 import { domain, api_url } from './constants';
 import { NotificationContainer, NotificationManager } from 'react-notifications';
-import ContentListExam from './contentlistexam';
-import ContentListProblem from './contentlistproblem';
+import ContentListExam from './ContentListExam';
+import ContentListProblem from './ContentListProblem';
 
 function ContentResult(props) {
     const history = useHistory();

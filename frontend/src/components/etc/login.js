@@ -1,7 +1,7 @@
 import '../../css/login.css';
 import React, { useState, useEffect } from 'react';
 import { useHistory } from 'react-router-dom';
-import { domain, api_url } from '../etc/constants';
+import { domain, api_url } from './constants';
 function Login(props) {
     var isShowLogin = props.isShowLogin;
     var isLoggedIn = props.isLoggedIn;

@@ -1,11 +1,11 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useHistory } from 'react-router-dom';
-import Clock from './clock';
+import Clock from './Clock';
 import { api_url } from './constants';
 import '../../css/exam.css';
-import NotiOutOfTimeExam from '../etc/notioutoftimeexam';
-import SubmitProblem from './submitproblem';
-import SubmitReport from './submitreportexam'
+import NotiOutOfTimeExam from './NotiOutOfTimeExam';
+import SubmitProblem from './SubmitProblem';
+import SubmitReport from './SubmitReportExam'
 import socketIOClient from "socket.io-client";
 import $ from 'jquery';
 function ContentExam(props) {

@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import '../../css/create-exam.css';
 import { useHistory } from 'react-router-dom';
 import { api_url, adminID } from './constants';
-import Calendar from './calendar';
+import Calendar from './Calendar';
 function CreateExam(props) {
     var isLoggedIn = props.isLoggedIn;
 

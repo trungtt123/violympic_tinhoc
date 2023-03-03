@@ -1,6 +1,6 @@
 import '../../css/navbar.css';
 import React, { useState, useEffect } from 'react';
-import { nav_item_isloggedin, nav_item_notloggedin } from './navitem';
+import { nav_item_isloggedin, nav_item_notloggedin } from './NavItem';
 import { useHistory } from 'react-router';
 import { domain } from './constants';
 function Navbar(props) {

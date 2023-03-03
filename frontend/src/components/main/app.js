@@ -1,13 +1,13 @@
-import NavBar from '../etc/navbar';
+import NavBar from '../etc/NavBar';
 import React, { useState, useEffect, useRef } from 'react';
 import { useHistory } from 'react-router-dom';
-import Header from '../etc/header';
+import Header from '../etc/Header';
 import '../../css/home.css';
-import Content from './content';
-import Footer from '../etc/footer';
+import Content from './Content';
+import Footer from '../etc/Footer';
 import {api_url} from '../etc/constants';
-import Menu from '../etc/menu';
-import MyMessage from '../etc/mymessage';
+import Menu from '../etc/Menu';
+import MyMessage from '../etc/MyMessage';
 import 'react-notifications/lib/notifications.css';
 
 function App(props) {

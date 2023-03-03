@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useHistory } from 'react-router-dom';
-import { domain, api_url } from '../etc/constants';
+import { domain, api_url } from './constants';
 function Clock(props) {
     var examTime = props.examTime;
     var isClickedStartExam = props.isClickedStartExam;
